@@ -15,3 +15,29 @@
 # HINTS
 # Learn to read the documentation!
 # https://ruby-doc.org/core-2.7.0/Array.html
+
+# # favorite foods
+my_favorite_foods = ["papa a la huancaina", "lomo saltado", "ceviche", "ocopa"]
+friend1_favorite_foods = ["aji de gallina", "ocopa", "quinoa"]
+
+# #to combine add them
+# combined_shopping_list = my_favorite_foods + friend1_favorite_foods
+
+# #display only uniques
+# unique_list = combined_shopping_list.uniq
+# # puts unique_list
+# # puts unique_list.size
+
+# #sort it
+# sorted_list = unique_list.sort
+
+# # display each item in the list prepended with buy
+# puts "Buy #{sorted_list [0]}"
+# puts "Buy #{sorted_list [1]}"
+# puts "Buy #{sorted_list [2]}"
+# puts "Buy #{sorted_list [3]}"
+# puts "Buy #{sorted_list [4]}"
+# puts "Buy #{sorted_list [5]}"
+
+sorted_list = (my_favorite_foods+friend1_favorite_foods).uniq.sort
+puts sorted_list
