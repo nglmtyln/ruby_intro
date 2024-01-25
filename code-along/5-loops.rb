@@ -7,8 +7,8 @@
 #   puts "tacos!"
 # end
 
-# Loop through tacos
-tacos = ["carnitas", "carne asada", "pollo", "pescado"]
+# # Loop through tacos
+# tacos = ["carnitas", "carne asada", "pollo", "pescado"]
 
 # #set index variables
 # index = 0
@@ -29,6 +29,8 @@ tacos = ["carnitas", "carne asada", "pollo", "pescado"]
 #     #increment the index
 #     index = index + 1
 # end
+
+#-----------------------------------------
 
 #or you can do it this way, the word "taco" is just a variable, could also be changed to zebra
 for taco in tacos

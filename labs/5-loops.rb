@@ -9,6 +9,34 @@
 ranks = [2, 3, 4, 5, 6, 7, 8, 9, 10, "Jack", "Queen", "King", "Ace"]
 suits = ["Clubs", "Diamonds", "Hearts", "Spades"]
 
+# for rank in ranks
+#     for suit in suits
+#     puts "#{rank} of #{suit}"
+#     end
+# end
+
+deck = Array.new
+
+    for rank in ranks
+        for suit in suits
+            deck.push("#{rank} of #{suit}")
+        end
+    end
+
+iterations  = 0
+while iterations < 5
+   
+    random_card = deck.sample
+    puts "#{random_card}"
+    deck.delete(random_card)
+
+    iterations += 1
+
+end
+
+
+
+
 # Sample output:
 # 2 of Clubs
 # 2 of Diamonds
